@@ -3,14 +3,12 @@ import axios from 'axios';
 import {
     Building,
     Plus,
-    Edit,
     Trash2,
     Save,
     X,
     MapPin,
     Phone,
-    Globe,
-    Users
+    Globe
 } from 'lucide-react';
 
 interface Organization {
@@ -506,7 +504,6 @@ const OrganizationManager = () => {
                                             onClick={() => handleEdit(org)}
                                             className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm flex items-center"
                                         >
-                                            <Edit className="w-4 h-4 mr-1" />
                                             Edit
                                         </button>
                                         <button
